@@ -45,6 +45,19 @@ Generates comprehensive handover documents for development sessions.
 
 ---
 
+### `/deslop` - Remove AI Code Slop
+Clean up AI-generated code patterns before committing. Created by [Eric Zakariasson](https://x.com/ericzakariasson).
+
+**Usage**: Type `/deslop` to remove AI-introduced slop from your branch:
+- Excessive comments inconsistent with the codebase
+- Unnecessary defensive checks or try/catch blocks
+- Type casts to `any` that bypass proper typing
+- Style inconsistencies with the existing file
+
+**When to use**: Before creating PRs, after AI pair programming sessions, or when code review mentions "AI slop"
+
+---
+
 ## Updating Skills
 
 To get the latest skill updates:
@@ -68,6 +81,8 @@ To add or improve skills:
 
 ```
 claude/
+├── deslop/
+│   └── SKILL.md
 ├── handover/
 │   └── SKILL.md
 └── vercel-react-best-practices/
