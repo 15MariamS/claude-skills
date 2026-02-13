@@ -43,6 +43,8 @@ Generates comprehensive handover documents for development sessions.
 
 **Usage**: Automatically applied when writing React/Next.js code. Reference specific rules in `~/.claude/skills/claude/vercel-react-best-practices/rules/`
 
+**Learn more**: [Introducing React Best Practices](https://vercel.com/blog/introducing-react-best-practices) - Vercel Blog
+
 ---
 
 ### `/deslop` - Remove AI Code Slop
