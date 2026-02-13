@@ -58,6 +58,13 @@ Clean up AI-generated code patterns before committing. Created by [Eric Zakarias
 
 ---
 
+## Recommended Tools
+
+### Context7 MCP Server
+Enhance your AI coding workflow with [Context7](https://context7.com) - a Model Context Protocol (MCP) server that provides additional context capabilities for AI coding assistants.
+
+---
+
 ## Updating Skills
 
 To get the latest skill updates:
